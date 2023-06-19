@@ -3,8 +3,9 @@
 setlocal enabledelayedexpansion
 
 REM Exibir unidades locais e USB disponíveis
-
-echo - Unidades disponiveis -
+echo _________________________
+echo = Unidades disponiveis =
+echo -------------------------
 wmic logicaldisk get caption
 
 REM Solicitar ao usuário a letra da unidade de origem
